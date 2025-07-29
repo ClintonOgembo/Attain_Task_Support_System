@@ -1,0 +1,21 @@
+h3 {
+    color: #dc4535;
+    font-weight: 900;
+    font-size: 2.8rem;
+    margin: 20px 0;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(180deg, #fff 0%, #f8f8f8 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
