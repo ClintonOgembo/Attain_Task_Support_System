@@ -12,6 +12,13 @@
     </div>
 </div>
 
-<div style="text-align: center; background:red">
-    <NavLink href="/login" class="button">Login</NavLink>
-</div>
+@inject NavigationManager NavigationManager
+
+<input type="button" value="Go to Login" @onclick="GoToLogin" class="button" />
+
+@code {
+    private void GoToLogin()
+    {
+        NavigationManager.NavigateTo("/login");
+    }
+}
