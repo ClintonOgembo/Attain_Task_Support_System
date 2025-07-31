@@ -1,0 +1,25 @@
+h2[b-sb7urmovwt] {
+    color: orange;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.page[b-sb7urmovwt] {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidebar[b-sb7urmovwt] {
+    width: 250px;
+    background-color: indigo;
+    color: white;
+    padding: 1rem;
+    margin: 10px 0px 0px 0px;
+}
+
+
+.content[b-sb7urmovwt] {
+    flex: 1;
+    padding: 2rem;
+}

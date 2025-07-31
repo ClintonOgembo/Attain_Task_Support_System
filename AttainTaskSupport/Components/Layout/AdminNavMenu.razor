@@ -1,0 +1,52 @@
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="top-bar">
+        <h5>Admin Dashboard</h5>
+    </div>
+</div>
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column" id="sidebar">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link">
+                Tasks
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    Open
+                </NavLink>
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    In-progress
+                </NavLink>
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="">
+                Projects
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link">
+                Create Client
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    Primary User
+                </NavLink>
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    Secondary User
+                </NavLink>
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="">
+                Create Staff
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="">
+                Clients
+            </NavLink>
+        </div>
+
+    </nav>
+</div>

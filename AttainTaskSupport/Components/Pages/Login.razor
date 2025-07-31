@@ -1,22 +1,28 @@
 @page "/login"
+@inject NavigationManager Navigation
 
 <PageTitle>Attain Task Support</PageTitle>
 <div class="container">
 
-    <h3>Login</h3>
+    <h3>Login To your Account</h3>
 
 
     <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
-        <div>
-            <label for="email">Email/Username:</label>
+        <div class="form-group">
+            <label for="email" class="label">Email/Username:</label>
             <InputText id="email" @bind-Value="loginModel.Email" class="form-control" />
         </div>
-        <div>
-            <label for="password">Password:</label>
+        <div class="form-group">
+            <label for="password" class="label">Password:</label>
             <InputText id="pwd" @bind-Value="loginModel.Password" Type="Password" class="form-control" />
         </div>
 
-        <button type="submit">Login</button>
+        <div class="form-check">
+            <InputCheckbox id="remember" @bind-Value="loginModel.RememberMe" class="form-check-input" />
+            <label for="remember" class="form-check-label">remember me</label>
+        </div>
+
+        <button type="submit" class="btn">Login</button>
 
     </EditForm>
 </div>
@@ -26,12 +32,28 @@
 
     private void HandleLogin()
     {
+        var email = loginModel.Email?.Trim().ToLower();
         Console.WriteLine($"Email: {loginModel.Email}, Password: {loginModel.Password}");
+
+        if (email == "clintonogembo70@gmail.com")
+        {
+            Navigation.NavigateTo("/admin");
+        }
+        else if (email != null && email.EndsWith("@es.com"))
+        {
+            Navigation.NavigateTo("/staff");
+        }
+        else
+        {
+            Navigation.NavigateTo("/client");
+        }
     }
 
     public class LoginModel
     {
         public string Email { get; set; }
         public string Password { get; set; }
+        public bool RememberMe { get; set; }
     }
+
 }

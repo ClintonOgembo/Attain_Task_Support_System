@@ -1,3 +1,40 @@
+/* _content/AttainTaskSupport/Components/Layout/AdminLayout.razor.rz.scp.css */
+h2[b-sb7urmovwt] {
+    color: orange;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.page[b-sb7urmovwt] {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidebar[b-sb7urmovwt] {
+    width: 250px;
+    background-color: indigo;
+    color: white;
+    padding: 1rem;
+    margin: 10px 0px 0px 0px;
+}
+
+
+.content[b-sb7urmovwt] {
+    flex: 1;
+    padding: 2rem;
+}
+/* _content/AttainTaskSupport/Components/Layout/AdminNavMenu.razor.rz.scp.css */
+h5[b-w6fifjav1e] {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+#sidebar .nav-link[b-w6fifjav1e] {
+    color: white;
+}
 /* _content/AttainTaskSupport/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-ad4vq5smha] {
     position: relative;
@@ -207,6 +244,26 @@ main[b-ad4vq5smha] {
         overflow-y: auto;
     }
 }
+/* _content/AttainTaskSupport/Components/Pages/Admin.razor.rz.scp.css */
+.card-grid[b-x4yhmiwf9r] {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    overflow-x: auto;
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.card[b-x4yhmiwf9r] {
+    background-color: #dc3545;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    min-height: 100px;
+    flex-shrink: 0;
+}
 /* _content/AttainTaskSupport/Components/Pages/Home.razor.rz.scp.css */
 h1[b-nhhaue895y] {
     color: #dc4535;
@@ -219,7 +276,7 @@ h1[b-nhhaue895y] {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
-.container[b-nhhaue895y] {
+.cont[b-nhhaue895y] {
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
@@ -229,7 +286,7 @@ h1[b-nhhaue895y] {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.text[b-nhhaue895y] {
+.Text[b-nhhaue895y] {
     margin: 20px 0;
     padding: 10px;
     font-size: 1.1rem;
@@ -249,7 +306,6 @@ h1[b-nhhaue895y] {
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
-    /* Remove underline on links */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
@@ -260,23 +316,69 @@ h1[b-nhhaue895y] {
 }
 /* _content/AttainTaskSupport/Components/Pages/Login.razor.rz.scp.css */
 h3[b-6o7gd35smx] {
-    color: #dc4535;
+    color: #dc3545;
     font-weight: 900;
     font-size: 2.8rem;
     margin: 20px 0;
     padding: 10px;
-    text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 
 }
 
 .container[b-6o7gd35smx] {
-    max-width: 900px;
+    max-width: 750px;
     margin: 50px auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(180deg, #fff 0%, #f8f8f8 100%);
+    background: #ded5d5;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.label[b-6o7gd35smx] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn[b-6o7gd35smx] {
+    padding: 10px 20px;
+    background-color: indigo;
+    color: orange;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-group[b-6o7gd35smx] {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* .form-check-label {
+    display: block;
+}
+
+.form-check-input {
+    display: inline;
+} */
+
+.form-check[b-6o7gd35smx] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+
+.form-check-input[b-6o7gd35smx] {
+    margin: 0;
+}
+
+.form-check-label[b-6o7gd35smx] {
+    display: flex;
+    font-weight: normal;
+    margin: 0;
 }

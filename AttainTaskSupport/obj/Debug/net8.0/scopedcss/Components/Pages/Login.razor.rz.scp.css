@@ -1,21 +1,67 @@
 h3[b-6o7gd35smx] {
-    color: #dc4535;
+    color: #dc3545;
     font-weight: 900;
     font-size: 2.8rem;
     margin: 20px 0;
     padding: 10px;
-    text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 
 }
 
 .container[b-6o7gd35smx] {
-    max-width: 900px;
+    max-width: 750px;
     margin: 50px auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(180deg, #fff 0%, #f8f8f8 100%);
+    background: #ded5d5;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.label[b-6o7gd35smx] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn[b-6o7gd35smx] {
+    padding: 10px 20px;
+    background-color: indigo;
+    color: orange;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-group[b-6o7gd35smx] {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* .form-check-label {
+    display: block;
+}
+
+.form-check-input {
+    display: inline;
+} */
+
+.form-check[b-6o7gd35smx] {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    gap: 8px;
+}
+
+.form-check-input[b-6o7gd35smx] {
+    margin: 0;
+}
+
+.form-check-label[b-6o7gd35smx] {
+    display: flex;
+    font-weight: normal;
+    margin: 0;
 }

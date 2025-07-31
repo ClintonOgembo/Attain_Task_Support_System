@@ -1,0 +1,10 @@
+h5 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+#sidebar .nav-link {
+    color: white;
+}
