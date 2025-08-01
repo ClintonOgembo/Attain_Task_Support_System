@@ -5,6 +5,11 @@ h5 {
     padding-bottom: 5px;
 }
 
-#sidebar .nav-link {
+.links {
     color: white;
+    margin: 20px;
+}
+
+#sidebar .nav-link {
+    color: white !important;
 }

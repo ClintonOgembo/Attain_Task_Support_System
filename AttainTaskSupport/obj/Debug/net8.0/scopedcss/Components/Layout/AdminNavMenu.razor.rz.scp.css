@@ -5,6 +5,11 @@ h5[b-w6fifjav1e] {
     padding-bottom: 5px;
 }
 
-#sidebar .nav-link[b-w6fifjav1e] {
+.links[b-w6fifjav1e] {
     color: white;
+    margin: 20px;
+}
+
+#sidebar .nav-link[b-w6fifjav1e] {
+    color: white !important;
 }

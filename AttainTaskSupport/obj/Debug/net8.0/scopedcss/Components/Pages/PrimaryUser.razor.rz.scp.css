@@ -1,0 +1,13 @@
+.head[b-rfo4tpt9iy] {
+    background-color: orange;
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2[b-rfo4tpt9iy] {
+    font-weight: bold;
+}

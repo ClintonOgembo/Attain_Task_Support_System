@@ -5,6 +5,7 @@ h2[b-sb7urmovwt] {
     margin: 15px;
 }
 
+
 .page[b-sb7urmovwt] {
     display: flex;
     flex-direction: row;
@@ -15,14 +16,14 @@ h2[b-sb7urmovwt] {
     width: 250px;
     background-color: indigo;
     color: white;
-    padding: 1rem;
-    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    margin: 10px 0px 0px 5px;
 }
 
-
-.content[b-sb7urmovwt] {
-    flex: 1;
-    padding: 2rem;
+.container[b-sb7urmovwt] {
+    background-color: #ded5d5;
+    margin: 5px;
+    width: 100%;
 }
 /* _content/AttainTaskSupport/Components/Layout/AdminNavMenu.razor.rz.scp.css */
 h5[b-w6fifjav1e] {
@@ -32,8 +33,13 @@ h5[b-w6fifjav1e] {
     padding-bottom: 5px;
 }
 
-#sidebar .nav-link[b-w6fifjav1e] {
+.links[b-w6fifjav1e] {
     color: white;
+    margin: 20px;
+}
+
+#sidebar .nav-link[b-w6fifjav1e] {
+    color: white !important;
 }
 /* _content/AttainTaskSupport/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-ad4vq5smha] {
@@ -244,11 +250,45 @@ main[b-ad4vq5smha] {
         overflow-y: auto;
     }
 }
+/* _content/AttainTaskSupport/Components/Layout/PageLayout.razor.rz.scp.css */
+h2[b-ahtqncblpo] {
+    color: orange;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+
+.page[b-ahtqncblpo] {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar[b-ahtqncblpo] {
+    width: 250px;
+    background-color: indigo;
+    color: white !important;
+    margin: 10px 0px 0px 5px;
+}
+
+.container[b-ahtqncblpo] {
+    background-color: #ded5d5;
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-ahtqncblpo] {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+}
 /* _content/AttainTaskSupport/Components/Pages/Admin.razor.rz.scp.css */
 .card-grid[b-x4yhmiwf9r] {
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: 2.5rem;
     overflow-x: auto;
     padding: 1rem;
     width: 100%;
@@ -263,6 +303,34 @@ main[b-ad4vq5smha] {
     min-width: 250px;
     min-height: 100px;
     flex-shrink: 0;
+}
+
+.header[b-x4yhmiwf9r] {
+    background-color: orange;
+    min-height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3[b-x4yhmiwf9r] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+/* _content/AttainTaskSupport/Components/Pages/CreateStaff.razor.rz.scp.css */
+.head[b-yrse7hdf25] {
+    background-color: orange;
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2[b-yrse7hdf25] {
+    font-weight: bold;
 }
 /* _content/AttainTaskSupport/Components/Pages/Home.razor.rz.scp.css */
 h1[b-nhhaue895y] {
@@ -313,6 +381,34 @@ h1[b-nhhaue895y] {
 .button:hover[b-nhhaue895y] {
     background-color: darkslateblue;
     transform: scale(1.05);
+}
+/* _content/AttainTaskSupport/Components/Pages/InProgress.razor.rz.scp.css */
+.head[b-qmp0t1aan4] {
+    background-color: orange;
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2[b-qmp0t1aan4] {
+    font-weight: bold;
+}
+/* _content/AttainTaskSupport/Components/Pages/ListClients.razor.rz.scp.css */
+.head[b-ts1x62e2l0] {
+    background-color: orange;
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2[b-ts1x62e2l0] {
+    font-weight: bold;
 }
 /* _content/AttainTaskSupport/Components/Pages/Login.razor.rz.scp.css */
 h3[b-6o7gd35smx] {
@@ -381,4 +477,46 @@ h3[b-6o7gd35smx] {
     display: flex;
     font-weight: normal;
     margin: 0;
+}
+/* _content/AttainTaskSupport/Components/Pages/PrimaryUser.razor.rz.scp.css */
+.head[b-rfo4tpt9iy] {
+    background-color: orange;
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2[b-rfo4tpt9iy] {
+    font-weight: bold;
+}
+/* _content/AttainTaskSupport/Components/Pages/Projects.razor.rz.scp.css */
+.head[b-i077l6h182] {
+    background-color: orange;
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2[b-i077l6h182] {
+    font-weight: bold;
+}
+/* _content/AttainTaskSupport/Components/Pages/SecondaryUser.razor.rz.scp.css */
+.head[b-xhr30tn3rc] {
+    background-color: orange;
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2[b-xhr30tn3rc] {
+    font-weight: bold;
 }

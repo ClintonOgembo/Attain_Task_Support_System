@@ -4,6 +4,7 @@ h2[b-sb7urmovwt] {
     margin: 15px;
 }
 
+
 .page[b-sb7urmovwt] {
     display: flex;
     flex-direction: row;
@@ -14,12 +15,12 @@ h2[b-sb7urmovwt] {
     width: 250px;
     background-color: indigo;
     color: white;
-    padding: 1rem;
-    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    margin: 10px 0px 0px 5px;
 }
 
-
-.content[b-sb7urmovwt] {
-    flex: 1;
-    padding: 2rem;
+.container[b-sb7urmovwt] {
+    background-color: #ded5d5;
+    margin: 5px;
+    width: 100%;
 }

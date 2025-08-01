@@ -23,9 +23,16 @@ C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\ne
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Layout\AdminNavMenu.razor.rz.scp.css
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Layout\PageLayout.razor.rz.scp.css
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\Admin.razor.rz.scp.css
+C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\CreateStaff.razor.rz.scp.css
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
+C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\InProgress.razor.rz.scp.css
+C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\ListClients.razor.rz.scp.css
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\Login.razor.rz.scp.css
+C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\PrimaryUser.razor.rz.scp.css
+C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\Projects.razor.rz.scp.css
+C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\Components\Pages\SecondaryUser.razor.rz.scp.css
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\bundle\AttainTaskSupport.styles.css
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\scopedcss\projectbundle\AttainTaskSupport.bundle.scp.css
 C:\Users\USER\Desktop\Attain_Task_Support_Project\AttainTaskSupport\obj\Debug\net8.0\AttainTaskSupport.dll

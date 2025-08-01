@@ -1,0 +1,13 @@
+.head[b-yrse7hdf25] {
+    background-color: orange;
+    width: 100% !important;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+h2[b-yrse7hdf25] {
+    font-weight: bold;
+}

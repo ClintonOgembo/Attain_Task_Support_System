@@ -50,14 +50,42 @@ build_metadata.AdditionalFiles.CssScope = b-ad4vq5smha
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-0r37rksgoj
 
+[C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Layout/PageLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUGFnZUxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ahtqncblpo
+
 [C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/Admin.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZG1pbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-x4yhmiwf9r
+
+[C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/CreateStaff.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhdGVTdGFmZi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-yrse7hdf25
 
 [C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-nhhaue895y
 
+[C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/InProgress.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJblByb2dyZXNzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-qmp0t1aan4
+
+[C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/ListClients.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0Q2xpZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ts1x62e2l0
+
 [C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-6o7gd35smx
+
+[C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/PrimaryUser.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcmltYXJ5VXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rfo4tpt9iy
+
+[C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/Projects.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9qZWN0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-i077l6h182
+
+[C:/Users/USER/Desktop/Attain_Task_Support_Project/AttainTaskSupport/Components/Pages/SecondaryUser.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWNvbmRhcnlVc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xhr30tn3rc
