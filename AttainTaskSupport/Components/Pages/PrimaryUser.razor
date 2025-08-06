@@ -1,41 +1,65 @@
 @page "/primaryUser"
 @layout PageLayout
+@inject NavigationManager NavigationManager
 @using System.ComponentModel.DataAnnotations
 
 <div class="head">
     <h2>Create Primary User</h2>
 </div>
-<EditForm Model="user" OnInvalidSubmit="HandleValidSubmit">
+
+<EditForm Model="user" OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />
     <ValidationSummary />
 
-    <div>
-        <label for="fname">Full Name:</label>
-        <InputText id="fname" @bind-Value="user.FullName" />
-    </div>
-    <div>
-        <label for="email">Email:</label>
-        <InputText id="email" @bind-Value="user.Email" />
-    </div>
-    <div>
-        <label for="pwd">Password:</label>
-        <InputText id="pwd" @bind-Value="user.Password" type="password" />
-    </div>
-    <div>
-        <label for="confirmPwd">Confirm Password:</label>
-        <InputText id="confirmPwd" @bind-Value="user.ConfirmPassword" type="password" />
-        <ValidationMessage For="@(() => user.ConfirmPassword)" />
+    <div class="forms">
+        <fieldset class="firstForm">
+            <div>
+                <label for="fname">Full Name:</label>
+                <InputText id="fname" @bind-Value="user.FullName" />
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <InputText id="email" @bind-Value="user.Email" />
+                <ValidationMessage For="@(() => user.Email)" />
+            </div>
+            <div>
+                <label for="pwd">Password:</label>
+                <InputText id="pwd" @bind-Value="user.Password" type="password" />
+            </div>
+            <div>
+                <label for="confirmPwd">Confirm Password:</label>
+                <InputText id="confirmPwd" @bind-Value="user.ConfirmPassword" type="password" />
+                <ValidationMessage For="@(() => user.ConfirmPassword)" />
+            </div>
+        </fieldset>
+
+        <fieldset class="secondForm">
+            <h4><u>
+                    <center>Project</center>
+                </u></h4>
+
+            <label for="title">Title:</label>
+            <InputText id="title" @bind-Value="user.Title" />
+
+            <label for="time">Timeline:</label>
+            <InputText id="time" @bind-Value="user.Timeline" />
+
+            <label for="description">Description:</label>
+            <InputTextArea id="description" @bind-Value="user.Description" />
+
+        </fieldset>
     </div>
 
-    @inject NavigationManager NavigationManager
+    <div class="btns">
+        <button @onclick="goBack" class="btn back">Back</button>
 
-    <input type="button" value="Back" @onclick="goBack" class="button" />
+        <button type="submit" class="btn create">Create User</button>
 
-    <button type="submit">Create User</button>
-
-    <input type="button" value="Logout" @onclick="logOut" />
+        <button @onclick="logOut" class="btn logout">Logout</button>
+    </div>
 
 </EditForm>
+
 
 @code {
     private PrimaryUserModel user = new();
@@ -61,6 +85,10 @@
         [Required(ErrorMessage = "Confirm Password is required.")]
         [Compare(nameof(Password), ErrorMessage = "Passwords must match.")]
         public string ConfirmPassword { get; set; }
+
+        public string Title { get; set; }
+        public string Timeline { get; set; }
+        public string Description { get; set; }
     }
 
     private void goBack()

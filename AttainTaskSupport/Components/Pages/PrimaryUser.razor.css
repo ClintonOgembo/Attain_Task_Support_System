@@ -11,3 +11,76 @@
 h2 {
     font-weight: bold;
 }
+
+.forms {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.firstForm,
+.secondForm {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.4rem;
+    margin-top: 0.2rem;
+    box-sizing: border-box;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.btn {
+    padding: 5px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    background-color: indigo;
+    color: orange;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(100, 25, 153);
+}
+
+.back {
+    order: 1;
+    margin-top: 50px;
+}
+
+.create {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    order: 2;
+}
+
+.logout {
+    order: 3;
+    margin-top: 50px;
+}
