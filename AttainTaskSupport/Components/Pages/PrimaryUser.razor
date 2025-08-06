@@ -4,3 +4,52 @@
 <div class="head">
     <h2>Create Primary User</h2>
 </div>
+<EditForm Model="user" OnInvalidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="fname">Full Name:</label>
+        <InputText id="fname" @bind-Value="user.FullName" />
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <InputText id="email" @bind-Value="user.Email" />
+    </div>
+    <div>
+        <label for="pwd">Password:</label>
+        <InputText id="pwd" @bind-Value="user.Password" type="password" />
+    </div>
+    <div>
+        <label for="confirmPwd">Confirm Password:</label>
+        <InputText id="confirmPwd" @bind-Value="user.ConfirmPassword" type="password" />
+        @if (!string.IsNullOrEmpty(user.ConfirmPassword) && user.Password != user.ConfirmPassword)
+        {
+            <div style="color: red;">Passwords do not match.</div>
+        }
+    </div>
+
+    <button type="submit">Create User</button>
+
+</EditForm>
+
+@code {
+    private PrimaryUserModel user = new();
+
+    private void HandleValidSubmit()
+    {
+        if (user.Password != user.ConfirmPassword)
+        {
+            return;
+        }
+        Console.WriteLine($"User: {user.FullName}, {user.Email}");
+    }
+
+    public class PrimaryUserModel
+    {
+        public string FullName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
+    }
+}
