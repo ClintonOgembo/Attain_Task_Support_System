@@ -21,7 +21,7 @@ h2[b-rfo4tpt9iy] {
 fieldset[b-rfo4tpt9iy] {
     border: 1px solid #ccc;
     padding: 1rem;
-    width: 100%;
+    width: 80%;
     box-sizing: border-box;
 }
 
@@ -48,8 +48,7 @@ textarea[b-rfo4tpt9iy] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    margin-top: 10px;
+    margin-top: 50px;
     padding: 0 10px;
 }
 
@@ -66,21 +65,4 @@ textarea[b-rfo4tpt9iy] {
 
 .btn:hover[b-rfo4tpt9iy] {
     background-color: rgb(100, 25, 153);
-}
-
-.back[b-rfo4tpt9iy] {
-    order: 1;
-    margin-top: 50px;
-}
-
-.create[b-rfo4tpt9iy] {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    order: 2;
-}
-
-.logout[b-rfo4tpt9iy] {
-    order: 3;
-    margin-top: 50px;
 }

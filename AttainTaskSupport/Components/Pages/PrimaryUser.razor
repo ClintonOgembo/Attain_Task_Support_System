@@ -54,8 +54,6 @@
         <button @onclick="goBack" class="btn back">Back</button>
 
         <button type="submit" class="btn create">Create User</button>
-
-        <button @onclick="logOut" class="btn logout">Logout</button>
     </div>
 
 </EditForm>
@@ -94,10 +92,5 @@
     private void goBack()
     {
         NavigationManager.NavigateTo("/admin");
-    }
-
-    private void logOut()
-    {
-        NavigationManager.NavigateTo("/");
     }
 }

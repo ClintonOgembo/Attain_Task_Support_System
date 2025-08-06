@@ -10,6 +10,19 @@ h5 {
     margin: 20px;
 }
 
-#sidebar .nav-link {
-    color: white !important;
+.btn {
+    align-self: center;
+    background-color: rgb(56, 7, 91);
+    color: orange;
+    border-radius: 15px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.btn:hover {
+    transform: scale(1.2);
 }
