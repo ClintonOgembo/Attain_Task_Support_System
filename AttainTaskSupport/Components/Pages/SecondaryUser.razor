@@ -4,3 +4,44 @@
 <div class="head">
     <h2>Create Secondary User</h2>
 </div>
+<EditForm Model="user" OnValidSubmit="HandleValidSubmit">
+
+    <label for="fname">Full Name:</label>
+    <InputText id="fname" @bind-Value="user.FullName" />
+
+    <label for="email">Email:</label>
+    <InputText id="email" @bind-Value="user.Email" />
+
+    <label for="password">Password:</label>
+    <InputText id="password" @bind-Value="user.Password" />
+
+    <label for="confirmPwd">Confirm Password:</label>
+    <InputText id="confirmPwd" @bind-Value="user.ConfirmPassword" />
+
+    <label for="project">Project:</label>
+    <select>
+        <option>Attain Task Support</option>
+        <option>OG App</option>
+        <option>Weather App</option>
+        <option>Jumia Web</option>
+    </select>
+
+</EditForm>
+
+@code {
+    private SecondaryUserModel user = new();
+
+    private void HandleValidSubmit()
+    {
+        Console.WriteLine($"{user.FullName} client created successfully.");
+    }
+
+    public class SecondaryUserModel
+    {
+        public string FullName { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string ConfirmPassword { get; set; }
+        public string Project { get; set; }
+    }
+}
